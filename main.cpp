@@ -1,6 +1,8 @@
 #include <iostream>
 #include "dodaj.h"
 #include "odjac.h"
+#include "mnoz.h"
+#include "dziel.h"
 using namespace std;
 int main()
 {
@@ -19,9 +21,9 @@ case 1:
 case 2:
 	cout << odjac(pierwsza,druga);
 case 3:
-	cout << "3";
+	cout << mnoz(pierwsza,druga);
 case 4:
-	cout << "4";
+	cout << dziel(pierwsza,druga);
 }
 
 
