@@ -1,4 +1,6 @@
 #include <iostream>
+#include "dodaj.h"
+#include "odjac.h"
 using namespace std;
 int main()
 {
@@ -13,9 +15,9 @@ cin >> menu;
 switch (menu)
 {
 case 1:
-	cout << "1";
+	cout << dodaj(pierwsza,druga);
 case 2:
-	cout << "2";
+	cout << odjac(pierwsza,druga);
 case 3:
 	cout << "3";
 case 4:
